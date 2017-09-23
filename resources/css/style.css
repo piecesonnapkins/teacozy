@@ -129,20 +129,21 @@ nav span {
 }
 
 .location {
+  opacity: 1.0;
   background-color: black;
   padding: 10px;
   margin: 5px 20px;
   width: 300px;
   height: 300px;
   opacity: 1;
-  border: 2px dotted pink;
   flex-basis: 250px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Contact us and footer below */
 
 #Contact {
-  border: 5px solid green;
   width: 1200px;
   height: 200px;
   display: inline-block;
@@ -154,7 +155,6 @@ nav span {
 footer {
   width: 100%;
   padding-left: 20px;
-  justify-content: flex-start;
   text-align: left;
   font-style: oblique;
 }
